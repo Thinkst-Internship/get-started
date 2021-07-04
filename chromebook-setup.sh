@@ -21,7 +21,7 @@ function install_ghcli(){
 }
 
 function install_vscode(){
-     curl -sL https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 -o vscode.deb
+     curl -sL "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o vscode.deb
      sudo dpkg -i vscode.deb
 }
 
