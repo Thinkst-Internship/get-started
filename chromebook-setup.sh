@@ -16,8 +16,15 @@ function install_awscli() {
 function install_ghcli(){
      SUFFIX=$(curl -sL https://github.com/cli/cli/releases/latest.json |grep gh_.*linux_amd64.deb |head -n 1  |cut -d\" -f2)
      curl http://github.com/$SUFFIX -o ghcli.deb
-     dpkg -i ghcli.deb
+     sudo dpkg -i ghcli.deb
+     rm -f ghcli.deb
+}
+
+function install_vscode(){
+     curl -sL https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64 -o vscode.deb
+     sudo dpkg -i vscode.deb
 }
 
 install_ghcli
 install_awscli
+install_vscode
