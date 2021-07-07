@@ -21,8 +21,8 @@ function install_ghcli(){
 }
 
 function install_vscode(){
-     apt-get update
-     apt-get install -y libnss3 libxkbfile1 libsecret-1-0
+     sudo apt-get update
+     sudo apt-get install -y libnss3 libxkbfile1 libsecret-1-0
      curl -sL "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64" -o vscode.deb
      sudo dpkg -i vscode.deb
 }
