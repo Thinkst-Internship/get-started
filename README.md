@@ -3,6 +3,7 @@ This document provides steps for the initial configuration of your Chromebook an
 This is what you will need to complete this step:
 * Your Chromebook
 * An internet connection
+* An iPhone or Android device
 
 ## Configure your Chromebook
 1. Login to your Chromebook with your Gmail address (create one if nenecessary).
@@ -13,7 +14,7 @@ to your mentor. Make sure you enable [2 Factor Authentication](https://docs.gith
 ```
 /bin/bash -c "$(curl -fsSl https://raw.githubusercontent.com/Thinkst-Internship/get-started/main/chromebook-setup.sh)"
 ```
-5. Install the DUO Authentication app on your mobile phone.
+5. We use DUO for 2-Factor Authentication. Install the DUO app on your mobile phone.
 * iPhone: https://apps.apple.com/us/app/duo-mobile/id422663827
 * Android: https://play.google.com/store/apps/details?id=com.duosecurity.duomobile
 
