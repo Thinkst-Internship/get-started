@@ -1,5 +1,5 @@
 # get-started
-This document provides steps for configuring your development environment.
+This document provides steps for the initial configuration of your Chromebook and development environment.
 This is what you will need to complete this step:
 * Your Chromebook
 * An internet connection
