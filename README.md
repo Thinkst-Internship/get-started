@@ -20,4 +20,4 @@ to your mentor. Make sure you enable [2 Factor Authentication](https://docs.gith
 
 Proceed onto the next step: [configure your tooling](https://github.com/Thinkst-Internship/configure-tooling/blob/main/README.md).
 
-N.B If you do not have access to the above URL contact your mentor to obtain permissions.
+N.B If you can't access the [configure your tooling](https://github.com/Thinkst-Internship/configure-tooling/blob/main/README.md) URL you probably haven't done step #2 yet :) Send your GitHub login to your mentor to get access.
