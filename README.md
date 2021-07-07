@@ -14,8 +14,8 @@ to your mentor. Make sure you enable [2 Factor Authentication](https://docs.gith
 /bin/bash -c "$(curl -fsSl https://raw.githubusercontent.com/Thinkst-Internship/get-started/main/chromebook-setup.sh)"
 ```
 5. Install the DUO Authentication app on your mobile phone.
-iPhone: https://apps.apple.com/us/app/duo-mobile/id422663827
-Android: https://play.google.com/store/apps/details?id=com.duosecurity.duomobile (edited)
+* iPhone: https://apps.apple.com/us/app/duo-mobile/id422663827
+* Android: https://play.google.com/store/apps/details?id=com.duosecurity.duomobile (edited)
 
 Once you have completed the above steps you can proceed onto the next step: [configure your tooling](https://github.com/Thinkst-Internship/configure-tooling/blob/main/README.md).
 
